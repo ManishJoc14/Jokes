@@ -5,7 +5,7 @@ import News from './components/News';
 import LoadingBar from 'react-top-loading-bar';
 import About from './components/About';
 import GoTop from './components/GoTop';
-import {BrowserRouter as Router,Routes,Route } from "react-router-dom";
+import { HashRouter as Router,Routes,Route } from "react-router-dom";
 
 const App =()=> {
   const pageSize = 3;
